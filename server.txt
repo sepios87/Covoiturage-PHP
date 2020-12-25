@@ -1,0 +1,19 @@
+user 7
+mdp : 34167
+port : 20007
+
+mettre le vpn 
+lecteur reseau : avec identifiants 
+\\164.81.120.4\user7
+
+se connecter avce identité différente 
+
+navigateur 
+164.81.120.4:20007
+
+phpp amdin
+164.81.120.4:20007
+
+php admin
+identifiant : bd
+mdp : bede

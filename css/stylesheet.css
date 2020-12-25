@@ -1,0 +1,293 @@
+a{
+	color:#222222;
+	text-decoration: none;		
+}
+
+a:visited{
+	color:#222222;
+	text-decoration: none;		
+}
+
+header,
+footer, 
+section {
+   overflow: auto;
+}
+
+body {
+    background-color: #ededed;
+    font-family: "Segoe UI", Verdana, serif;
+    font-size: 12pt;
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+	width:100%;
+	height:250px;
+	background-color:#222222;	
+	box-shadow:0 0 20px #000000;
+	border-bottom:solid #444444 8px;		
+}
+
+.colonne {
+  display:table-cell;
+  padding:25px;
+}
+
+.colonne:nth-child(2) {
+	vertical-align:middle;
+	color:#CCCCCC;
+	font-size:32px;
+	font-weight:bold;		
+	text-shadow:1px 1px #111111, 2px 2px #000000;	
+}
+
+#entete{
+	width:1050px;
+	margin:auto;
+	display:table
+}
+
+#connect{
+	height:30px;
+	width:380px;
+	padding:10px;
+	position: relative;
+	bottom: 25%;
+	float: right;
+	margin-right: 20px;
+	background-color:#AAAAAA;
+	border-radius:10px;
+	border:4px solid #111111;
+	box-shadow:0 0 5px #000000 inset;
+	color:#222222;
+	font-size:18px;
+	text-align:center;
+}
+
+#connect a{
+	color:#222222;
+	font-weight:bold;
+	text-decoration: none;	
+}
+#connect a :visited{
+	color:#222222;	
+	font-weight:bold;
+	text-decoration: none;
+}
+
+
+#corps{
+	float:left;
+	width: 100%;
+	margin-top: -40px;
+	height: 38em;
+}
+
+#menu{
+	float : left;
+	width: 20%;	
+	min-height:355px;
+	margin-left: 3px;
+	color:#222222;
+	font-size:15px;
+}
+#menu p{
+	font-weight:bold;
+}
+#menu a{
+	color:#222222;
+	text-decoration: none;	
+}
+#menu a :visited{
+	color:#222222;
+	text-decoration: none;
+}
+
+#menuInt{
+	margin-top: 2px;
+	margin-left: 50px;	
+	min-height:367px;
+}
+
+#texte{
+	float:left ;
+	width: 79%;
+	margin-left: 5px;
+	text-align: center;
+	min-height:380px;
+	color:#222222;
+}
+
+#spacer {     
+  clear: both; 
+}
+#footer {
+	width: 100%;
+	position: fixed;
+    left: 0;
+    bottom: 0;
+    height: auto;
+    border-top: solid #444444 8px;    
+    padding: 1%;
+    box-shadow: 0 -5px 5px #858585;
+    font-size: 12px;
+    text-align: center;
+	clear: both;
+	color: #CCCCCC;
+	background-color: #222222;    
+}
+
+.centreImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 38%
+}
+
+label{
+	font-size:12pt;
+   font-weight:bold;	
+}
+
+h1{
+	text-shadow:1px 1px 2px #333333;	
+}
+
+
+* a:hover{
+
+	text-decoration: underline;
+}
+#menu a:hover{
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#connect a{
+	color:#222222;
+	font-weight:bold;
+	text-decoration: none;	
+}
+
+#connect a :visited{
+
+}
+
+table{
+	border-collapse : collapse;
+	margin: auto auto 10% auto;
+}
+
+td {
+	border: 1px solid black;
+	width: 220px;
+  }
+
+input:not([type="submit"]):not([type="radio"]), option, select{
+	border-radius: 7px;
+	border: 1px solid #111;
+	box-shadow: 2px 2px 3px rgb(100, 100, 100) inset;
+	color: #222222;
+	background-color: rgb(230, 230, 230);
+	padding: 0.5%;
+}
+
+input[type="submit"]{
+	border-radius: 5px;
+	border: 2px solid gray;
+	color: white;
+	background-color: black;
+	padding: 0.5% 2%;
+	display: inline-block;
+}
+
+.encadre{
+	border : solid 1px black;
+	display: table;
+	width: auto;
+	padding: 1% 2%;
+	margin: 2% auto;
+}
+
+form div{
+	margin-bottom : 2%;
+}
+
+.colonnes{
+	display: grid;
+	grid-template-columns: repeat(2, 25%);
+	grid-gap: 6%;
+	margin-bottom: 2%;
+	justify-content: center;
+}
+
+.colonnes div{
+	display: flex;
+	justify-content: space-between;
+}
+
+#connexion label{
+	display: block;
+	margin-top: 0.5%;
+}
+
+#connexion input[type="submit"]{
+	display : block;
+	margin: 1% auto;
+}
+
+#deco{
+	margin: 0;
+}
+
+#deco a{
+	margin-left : 4%;
+}
+
+input[type="date"] .day{
+	background-color: red;;
+}
+
+.tooltip {
+	position: relative;
+}
+
+.tooltip p{
+	margin : 4%;
+	color : blue;
+	text-decoration: underline;
+}
+
+.tooltip .tooltiptext  {
+	visibility: hidden;
+	width: 110px;
+	font-size: 73%;
+	background-color: rgb(255, 255, 140);
+	text-align: center;
+	border: solid 1px gray;
+	border-radius: 6px;
+	padding: 7px;
+	position: absolute;
+	z-index: 1;
+	bottom: 100%;
+	top: 223%;
+	height: 200%;
+	left: -22px;
+	overflow: hidden;
+}
+
+.tooltip:hover .tooltiptext {
+	visibility: visible;
+}
+
+#captcha{
+	display:flex;
+	margin: 2% 0;
+	justify-content: center;
+}
+
+#captcha img{
+	margin: 0 1.5%;
+}
